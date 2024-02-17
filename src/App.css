@@ -24,14 +24,17 @@ a:hover{
 }
 
 .navbar{
-    flex: 0.2;
+    //flex: 0.2;
+    //background-color: rgb(0, 21, 41);
+
+    flex: 0 0 25%; /* Set the initial width of the navbar */
+    height: 100vh;
     background-color: rgb(0, 21, 41);
 }
 
 .main{
-    flex: 0.8;
+    flex: 1;
     width: 100%;
-    
 }
 .routes{
     padding: 20px;
@@ -41,6 +44,7 @@ a:hover{
     left: 0;
     margin: 10px;
     height: 100vh;
+    width: 25%;
     margin: 0px;
     background-color: rgb(0, 21, 41);
 }
@@ -75,15 +79,15 @@ a:hover{
     align-items: center;
 }
 
-@media screen and (max-width:1300px){
+/*@media screen and (max-width:1300px){
     .main{
-        margin-left: 50px;
+        margin-left: 0px;
     }
 }
 
 @media screen and (max-width:1170px){
     .main{
-        margin-left: 50px;
+        margin-left: 15px;
     }
 }
 
@@ -92,7 +96,7 @@ a:hover{
         margin-left: 100px;
     }
 }
-
+*/
 @media screen and (max-width:800px){
     .app{
         flex-direction: column;
@@ -113,9 +117,9 @@ a:hover{
     .nav-container{
         height: 8vh;
         position:fixed;
-        width: 100%;
         z-index: 100;
         background-color: var(--bgSecondary);
+        width: 100%;
     }
   
     .menu-control-container{
