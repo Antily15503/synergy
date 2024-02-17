@@ -21,7 +21,7 @@ const Navbar = () => {
             <Link to="/cryptocurrencies">Crypto List</Link>
           </Menu.Item>
           <Menu.Item icon={<MoneyCollectOutlined/>}>
-            <Link to="/exchanges">Exchanges</Link>
+            <Link to="/portfolio">Portfolio</Link>
           </Menu.Item>
           <Menu.Item icon={<BulbOutlined/>}>
             <Link to="/news">News</Link>
